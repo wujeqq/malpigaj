@@ -1,0 +1,31 @@
+{
+  "name": "malpigaj",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild --open",
+    "format": "biome format --write",
+    "lint": "rslint",
+    "preview": "rsbuild preview",
+    "test": "rstest",
+    "test:watch": "rstest --watch"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.15",
+    "@rsbuild/core": "^2.0.14",
+    "@rsbuild/plugin-tailwindcss": "^2.0.3",
+    "@rslint/core": "^0.5.3",
+    "@rstest/adapter-rsbuild": "^0.10.4",
+    "@rstest/core": "^0.10.4",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@types/node": "^24.13.2",
+    "happy-dom": "^20.10.3",
+    "prettier": "^3.8.3",
+    "tailwindcss": "^4.3.1",
+    "typescript": "^6.0.3"
+  }
+}
